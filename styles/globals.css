@@ -108,7 +108,7 @@
   main ul {
     @apply my-6 ml-8 list-disc [&>li]:mt-2 text-muted-foreground;
   }
-  main code {
+  code {
     @apply relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold;
   }
 }
