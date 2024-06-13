@@ -24,7 +24,7 @@ export default function Home() {
             <h1 className="">Hackathon</h1>
           </div>
           <p className="text-lg sm:text-xl mb-10">
-            Organized by Hackpost Guide. Join us for a weekend of hacking, learning, and fun!
+            A virtual hackathon organized by Hackpost Guide. Join us for 2 weeks of hacking, learning, and fun!
           </p>
 
           <RegisterButtons />
@@ -35,6 +35,7 @@ export default function Home() {
       <section className="px-10">
         <div className="py-10 max-w-5xl mx-auto">
           <h2>Prizes</h2>
+          <p>Prizes will be announced soon!</p>
         </div>
       </section>
 
@@ -42,6 +43,7 @@ export default function Home() {
       <section className="px-10">
         <div className="py-10 max-w-5xl mx-auto">
           <h2>Schedule</h2>
+          <p>Coming soon!</p>
         </div>
       </section>
 
@@ -60,7 +62,7 @@ export default function Home() {
 
       {/* FAQ */}
       <section className="px-10">
-        <h2 className="pt-10">FAQ</h2>
+        <h2 className="pt-10">Frequently Asked Questions</h2>
         <div className="max-w-5xl mx-auto">
           <FAQ />
         </div>
@@ -68,11 +70,11 @@ export default function Home() {
       </section>
 
       {/* Sponsors */}
-      <section className="px-10">
+      {/* <section className="px-10">
         <div className="py-10 max-w-5xl mx-auto">
           <h2>Sponsors</h2>
         </div>
-      </section>
+      </section> */}
 
       <Footer />
     </main>

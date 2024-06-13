@@ -11,7 +11,7 @@ export const FAQ = () => {
                     <p>Yes!</p>
                 </AccordionContent>
             </AccordionItem>
-            <AccordionItem value="item-2">
+            {/* <AccordionItem value="item-2">
                 <AccordionTrigger>Is it styled?</AccordionTrigger>
                 <AccordionContent>
                     <p>Yes!</p>
@@ -22,7 +22,7 @@ export const FAQ = () => {
                 <AccordionContent>
                     <p>Yes!</p>
                 </AccordionContent>
-            </AccordionItem>
+            </AccordionItem> */}
         </Accordion>
     </div>
   )
