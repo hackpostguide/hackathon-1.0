@@ -1,4 +1,6 @@
 import { FAQ } from "@/components/FAQ";
+import Footer from "@/components/Footer";
+import Nav from "@/components/Nav";
 import { RegisterButtons } from "@/components/RegisterButtons";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
@@ -8,6 +10,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="text-center">
+      <Nav />
       {/* Hero Section */}
       <section className="min-h-[80vh] bg-neutral-950 flex items-center text-background">
         <div className="mx-auto p-10 max-w-3xl">
@@ -71,7 +74,7 @@ export default function Home() {
         </div>
       </section>
 
-      <p>Brought to you by Hackpost Guide</p>
+      <Footer />
     </main>
   );
 }
