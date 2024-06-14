@@ -61,8 +61,8 @@ export default function Home() {
       </section>
 
       {/* FAQ */}
-      <section className="px-10">
-        <h1 className="pt-10">Frequently Asked</h1>
+      <section className="p-10">
+        <h1 className="">Frequently Asked</h1>
         <div className="max-w-5xl mx-auto">
           <FAQ />
         </div>

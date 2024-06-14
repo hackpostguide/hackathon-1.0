@@ -1,9 +1,10 @@
 import React from 'react'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from './ui/accordion'
 import Link from 'next/link'
+import { Button } from './ui/button'
 
 export const FAQ = () => {
-  return (
+return (
     <div>
         <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1">
@@ -16,28 +17,37 @@ export const FAQ = () => {
                 <AccordionTrigger>What is Hackpost Guide?</AccordionTrigger>
                 <AccordionContent>
                     <p>Hackpost Guide is a community of hackers, developers, and tech enthusiasts who are passionate about learning and building cool projects. We host hackathons, workshops, and other events to help you grow your skills and connect with others. For more information, check out </p>
-                    <Link className='' href={"https://hackpost.guide"}>https://hackpost.guide</Link> 
+                    <Button variant="secondary" asChild>
+                        <Link href="https://hackpost.guide" target="_blank" rel="noopener noreferrer">Hackpost Guide</Link>
+                    </Button>
+                    
                 </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
                 <AccordionTrigger>Who can attend?</AccordionTrigger>
                 <AccordionContent>
-                    <p>Anyone can attend, and no coding experience is necessary! Non-STEM majors, first-time hackers, and beginner coders are welcome and encouraged to join us!</p>
+                    <p>Anyone can attend, and no coding experience is necessary! Non-STEM majors, first-time hackers, and all high school and middle school students are welcome and encouraged to join us!</p>
                 </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4">
                 <AccordionTrigger>Is it free to attend?</AccordionTrigger>
                 <AccordionContent>
-                    <p>Yes!</p>
+                    <p className="text-2xl">Yes!</p>
                 </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-5">
                 <AccordionTrigger>What languages can I use?</AccordionTrigger>
                 <AccordionContent>
-                    
+                    <p>You can use any programming language or technology you like! We encourage you to try new things and learn something new during the hackathon.</p>
+                </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-6">
+                <AccordionTrigger>How can I sponsor?</AccordionTrigger>
+                <AccordionContent>
+                    <p>Email us at <b>hackpost.guide@gmail.com</b>.</p>
                 </AccordionContent>
             </AccordionItem>
         </Accordion>
     </div>
-  )
+)
 }
