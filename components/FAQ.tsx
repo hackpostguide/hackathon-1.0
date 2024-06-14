@@ -44,7 +44,10 @@ return (
             <AccordionItem value="item-6">
                 <AccordionTrigger>How can I sponsor?</AccordionTrigger>
                 <AccordionContent>
-                    <p>Email us at <b>hackpost.guide@gmail.com</b>.</p>
+                    <p>Check out our sponsorship prospectus!</p>
+                    <Button variant="secondary" asChild>
+                        <Link href="https://hackathon.hackpost.guide/assets/prospectus.pdf" target="_blank" rel="noopener noreferrer">Sponsorship Prospectus</Link>
+                    </Button>
                 </AccordionContent>
             </AccordionItem>
         </Accordion>
